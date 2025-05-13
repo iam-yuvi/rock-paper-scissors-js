@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS</title>
+    <link rel="stylesheet" href="RPS.CSS" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="game-tools">
+      <div class="moves-buttons">
+        <button class="rps" onclick="playgame('rock')">
+          <img src="resources/images/rock-emoji.png" />
+          <p class="tool-tip">Tip: press 'r'</p>
+        </button>
+        <button class="rps" onclick="playgame('paper')">
+          <img src="resources/images/paper-emoji.png" />
+          <p class="tool-tip">Tip: press 'p'</p>
+        </button>
+        <button class="rps" onclick="playgame('scissors')">
+          <img src="resources/images/scissors-emoji.png" />
+          <p class="tool-tip">Tip: press 's'</p>
+        </button>
+      </div>
+      <div class="after-moves">
+        <p id="match-result"></p>
+        <p id="choice"></p>
+        <p id="score">Wins: 0, Losses: 0, Ties: 0</p>
+        <div class="play-buttons">
+          <button id="reset-button">Reset Score</button>
+          <button id="autoplay-button" onclick="autoplay()">Auto Play</button>
+        </div>
+      </div>
+    </div>
+    <section id="audios">
+      <audio src="resources/sounds/win-sound.wav" id="win-sound" preload="auto"></audio>
+      <audio src="resources/sounds/lose-sound.mp3" id="lose-sound" preload="auto"></audio>
+      <audio src="resources/sounds/tie-sound.mp3" id="tie-sound" preload="auto"></audio>
+      <audio src="resources/sounds/auto-play.mp3" id="auto-play-sound" preload="auto"></audio>
+      <audio src="resources/sounds/reset-button.mp3" id="reset-sound" preload="auto"></audio>
+      <audio src="resources/sounds/stop-play.mp3" id="stop-play-sound" preload="auto"></audio>
+    </section>
+    <script src="RPS.JS"></script>
+  </body>
+</html>
