@@ -2,12 +2,6 @@
 
 A simple and interactive Rock Paper Scissors game built using **HTML**, **CSS**, and **JavaScript**, with sound effects and local score tracking.
 
-## 📸 Preview
-
-![Game Preview](resources/images/rock-emoji.png)  
-*(You can replace this with an actual screenshot of your game.)*
-
----
 
 ## ✨ Features
 
