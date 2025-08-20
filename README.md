@@ -50,23 +50,9 @@
 
 ---
 
-## 🔥 Projects That Go Hard  
-
-| 🚀 Project | ⚡ Stack | 🌟 Status |
-|------------|---------|-----------|
-| [**Jenkins CI/CD Pipeline**](https://github.com/YuviKing/jenkins-node-ci) | Jenkins + GitHub + AWS EC2 | ✅ Deployed |
-| [**Dockerized WebApp**](https://github.com/YuviKing/docker-deploy-app) | Docker + AWS | 🐳 Running |
-| [**AI Chatbot**](https://github.com/YuviKing/AI-CHATBOT) | NLP + Python | 🤖 Chatty |
-| [**AWS 3-Tier Architecture**](#) | AWS VPC + EC2 + RDS + ELB | ☁️ In Progress |
-| [**OCES Project**](#) | Cloud Infra | ⚙️ Building |  
-
----
-
 ## 🎧 Vibing While Coding  
 
-<p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31edbbz7s3xg6c4h25zj6gokdtru&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true" />
-</p>
+![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)
 
 ---
 
