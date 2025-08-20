@@ -1,65 +1,95 @@
-<!-- WELCOME BANNER -->
-<h1 align="center">✨ Heyyo, I'm <a href="https://www.linkedin.com/in/yuvaraj-devops/">Yuvaraj S</a> ✨</h1>
-<h3 align="center">☁️ Aspiring Cloud & DevOps Engineer | 🚀 Automating the Future</h3>
+# 🎮 Rock Paper Scissors Game  
+
+An interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScript**, with sound effects, score tracking, and an autoplay feature.  
 
 ---
 
-<!-- GIF / AESTHETICS -->
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
-</p>
+## 📸 Demo  
+(Add a screenshot or gif of your project UI here)  
 
 ---
 
-## 🧑‍💻 About Me  
-- 🎓 CS Student @ **Aadhavan College of Arts & Science (Trichy)**  
-- 💻 Trainee @ **Besant Technologies, Chennai (Cloud + DevOps)**  
-- 🛠️ I break things… and then automate them back 😎  
-- ☕ Fueled by coffee + Linux terminal  
-- 🎯 Dream Role → **Cloud / DevOps Engineer**  
-- ✨ Motto: *"Push → Fail → Debug → Automate → Repeat"*  
+## ✨ Features  
+- 🪨📄✂ Play **Rock, Paper, Scissors** against the computer  
+- 🎵 **Sound effects** for win, lose, tie, reset, autoplay & stop  
+- 📊 **Score tracking** stored in localStorage (persists even after refresh)  
+- ⚡ **Keyboard shortcuts**:  
+  - `r` → Rock  
+  - `p` → Paper  
+  - `s` → Scissors  
+- 🔁 **Auto-play mode** (game runs automatically every 2 seconds)  
+- 🎨 Simple, clean, dark-themed UI  
 
 ---
 
-## 🚀 Tech Playground  
-
-**☁️ Cloud / Infra**  
-`AWS` | `CloudWatch` | `Terraform`  
-
-**⚙️ DevOps / CI-CD**  
-`Git` | `GitHub` | `Jenkins` | `Docker` | `Kubernetes`  
-
-**📊 Monitoring**  
-`Grafana` | `Prometheus`  
-
-**🖥️ OS / Scripting**  
-`Linux` | `Bash`  
+## 🛠 Tech Stack  
+- **HTML5** – Structure  
+- **CSS3** – Styling  
+- **JavaScript (Vanilla JS)** – Game logic & interactivity  
+- **LocalStorage API** – Persistent score tracking  
+- **Audio API** – Sound effects  
 
 ---
 
-## 📈 Stats That Slap  
+## 📂 Project Structure  
+📦 Rock-Paper-Scissors
+┣ 📂 resources
+┃ ┣ 📂 images
+┃ ┃ ┣ rock-emoji.png
+┃ ┃ ┣ paper-emoji.png
+┃ ┃ ┗ scissors-emoji.png
+┃ ┣ 📂 sounds
+┃ ┃ ┣ win-sound.wav
+┃ ┃ ┣ lose-sound.mp3
+┃ ┃ ┣ tie-sound.mp3
+┃ ┃ ┣ auto-play.mp3
+┃ ┃ ┣ reset-button.mp3
+┃ ┃ ┗ stop-play.mp3
+┣ 📜 index.html
+┣ 📜 RPS.css
+┣ 📜 RPS.js
+┗ 📜 README.md
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YuviKing&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YuviKing&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YuviKing&theme=tokyonight&hide_border=true" height="170"/>
-</p>
 
 ---
 
-## 📬 Connect & Vibe With Me  
+## ⚙️ Installation & Setup  
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/yuvaraj-devops/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://www.instagram.com/_yvrxj._/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="mailto:yuviyuvaraj7639@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+1️⃣ Clone this repository  
+```bash
+git clone https://github.com/your-username/rock-paper-scissors.git
+```
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=435&lines=Automate+Everything+⚡;Cloud+Is+The+Future+☁️;Eat+~+Code+~+Sleep+~+Repeat+💻" />
-</p>
+2️⃣ Open the project folder
+
+cd rock-paper-scissors
+
+
+3️⃣ Run the project
+Open index.html in your browser
+
+▶️ Usage
+
+Click on Rock / Paper / Scissors buttons to play
+
+Or press r / p / s on your keyboard
+
+Press Auto Play to let the game play automatically
+
+Press Stop to end autoplay
+
+Use the Reset button to clear the score
+
+📈 Future Enhancements
+
+Add multiplayer support (player vs player)
+
+Add animations for better UX
+
+Add mobile-friendly touch controls
+
+Deploy live demo using GitHub Pages
+
+---
