@@ -4,11 +4,6 @@ An interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScr
 
 ---
 
-## 📸 Demo  
-(Add a screenshot or gif of your project UI here)  
-
----
-
 ## ✨ Features  
 - 🪨📄✂ Play **Rock, Paper, Scissors** against the computer  
 - 🎵 **Sound effects** for win, lose, tie, reset, autoplay & stop  
@@ -31,7 +26,8 @@ An interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScr
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure 
+```text
 📦 Rock-Paper-Scissors
 ┣ 📂 resources
 ┃ ┣ 📂 images
@@ -49,28 +45,28 @@ An interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScr
 ┣ 📜 RPS.css
 ┣ 📜 RPS.js
 ┗ 📜 README.md
-
+```
 
 ---
 
 ## ⚙️ Installation & Setup  
 
-1️⃣ Clone this repository  
+### 1️⃣ Clone this repository  
 ```bash
 git clone https://github.com/your-username/rock-paper-scissors.git
 ```
 
 ---
 
-2️⃣ Open the project folder
+### 2️⃣ Open the project folder
 
 cd rock-paper-scissors
 
 
-3️⃣ Run the project
+### 3️⃣ Run the project
 Open index.html in your browser
 
-▶️ Usage
+### ▶️ Usage
 
 Click on Rock / Paper / Scissors buttons to play
 
@@ -82,7 +78,7 @@ Press Stop to end autoplay
 
 Use the Reset button to clear the score
 
-📈 Future Enhancements
+## 📈 Future Enhancements
 
 Add multiplayer support (player vs player)
 
